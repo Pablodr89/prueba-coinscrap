@@ -73,8 +73,8 @@ Opción práctica elegida: A
 
      2.9. Trade‑offs y alternativas
 
-   - Qué simplifiqué por tiempo y cómo lo haría “bien” con más tiempo.
-   - Alternativas consideradas (p. ej., TanStack Query vs fetch RSC).
+   - He simplificado mucho los estilos del proyecto sobre todo, con más tiempo se mejoraría mucho dichos estilos, dando mayores opciones al usuario, más datos, etc...
+   - Usamos Tanstack Query por la mejora de la eficiencia y la facilidad del consumo de los datos, la gestión de los estados o el almacenamiento en caché si fuera necesario.
 
      2.10. Supuestos
 
