@@ -6,15 +6,15 @@ Opción práctica elegida: A
 
 1. Respuestas cortas
 
-Pregunta seleccionada 1: ¿Qué aporta TypeScript en frontend? Da 2 ventajas y 1 limitación real; incluye ejemplo breve.
-Respuesta (5 u 8 lí­neas):
-Ventajas: Mejor código y mantenibilidad y detección temprana de errores.
-Desventajas: Dependencia del ecosistema de tipos.
-Ejemplo: por ejemplo con una de las desventajas, si necesitamos usar librerías que no están escritas en typescript es necesario instalar su definición de tipos, pudiendo esta estar incompleta o desactualizada
+- Pregunta seleccionada 1: ¿Qué aporta TypeScript en frontend? Da 2 ventajas y 1 limitación real; incluye ejemplo breve.
+  Respuesta (5 u 8 lí­neas):
+  Ventajas: Mejor código y mantenibilidad y detección temprana de errores.
+  Desventajas: Dependencia del ecosistema de tipos.
+  Ejemplo: por ejemplo con una de las desventajas, si necesitamos usar librerías que no están escritas en typescript es necesario instalar su definición de tipos, pudiendo esta estar incompleta o desactualizada
 
-Pregunta seleccionada 2: SSR vs CSR en Next.js para una lista filtrable: ¿qué elegirías y por qué? Considera SEO, latencia y coste.
-Respuesta (5 u 8 lí­neas):
-A mi parecer elegiría la mezcla de las dos, primero hacer una carga inicial de los datos y una estructura inicial en el servidor para después ser consumida en el lado del cliente. A la hora del filtrado, lo haría en el lado del cliente los que fueran filtros sencillos como una ordenación o búsqueda de texto, si fueran filtros más complejos o existiera una paginación, se podría hacer una nueva llamada al servidor mandando esos filtros por la url por ejemplo, para recibir los nuevos datos en el lado del cliente. Con esto tenemos una mejor experiencia de usuario, un SEO con contenido dinámico o siempre los datos más reciente en la carga inicial.
+- Pregunta seleccionada 2: SSR vs CSR en Next.js para una lista filtrable: ¿qué elegirías y por qué? Considera SEO, latencia y coste.
+  Respuesta (5 u 8 lí­neas):
+  A mi parecer elegiría la mezcla de las dos, primero hacer una carga inicial de los datos y una estructura inicial en el servidor para después ser consumida en el lado del cliente. A la hora del filtrado, lo haría en el lado del cliente los que fueran filtros sencillos como una ordenación o búsqueda de texto, si fueran filtros más complejos o existiera una paginación, se podría hacer una nueva llamada al servidor mandando esos filtros por la url por ejemplo, para recibir los nuevos datos en el lado del cliente. Con esto tenemos una mejor experiencia de usuario, un SEO con contenido dinámico o siempre los datos más reciente en la carga inicial.
 
 2. Ejercicio práctico
    2.1. Contexto rápido
